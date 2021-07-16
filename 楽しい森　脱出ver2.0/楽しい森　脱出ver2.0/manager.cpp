@@ -70,8 +70,6 @@ HRESULT CManager::Init(HINSTANCE hInstance, HWND hWnd, bool bWindow)
 	m_pLight = CLight::Create();
 	
 	CScene2d::Create(D3DXVECTOR3(400.0f, 500.0f, 0.0f), D3DXVECTOR3(100.0f, 100.0f, 0.0f));
-
-	CMeshfield::Create(D3DXVECTOR3(0.0f, 0.0f, 0.0f), D3DXVECTOR3(100.0f, 100.0f, 0.0f));
 	
 	CScene3d::Create(D3DXVECTOR3(0.0f, 0.0f, 0.0f), D3DXVECTOR3(100.0f, 100.0f, 100.0f));
 	//各テクスチャロード処理

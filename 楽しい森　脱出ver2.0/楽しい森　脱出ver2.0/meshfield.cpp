@@ -126,7 +126,6 @@ HRESULT CMeshfield::Init(void)
 	{
 		pVtx[nCnt].nor = D3DXVECTOR3(0.0f, 1.0f, 0.0f);
 		pVtx[nCnt].col = m_col;
-
 	}
 
 
