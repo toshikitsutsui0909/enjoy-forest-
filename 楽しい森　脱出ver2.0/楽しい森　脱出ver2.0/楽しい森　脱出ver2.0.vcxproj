@@ -28,10 +28,12 @@
     <ClCompile Include="meshfield.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="renderer.cpp" />
+    <ClCompile Include="result.cpp" />
     <ClCompile Include="scene.cpp" />
     <ClCompile Include="scene2d.cpp" />
     <ClCompile Include="scene3d.cpp" />
     <ClCompile Include="sound.cpp" />
+    <ClCompile Include="title.cpp" />
     <ClCompile Include="ui.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -44,10 +46,12 @@
     <ClInclude Include="meshfield.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="renderer.h" />
+    <ClInclude Include="result.h" />
     <ClInclude Include="scene.h" />
     <ClInclude Include="scene2d.h" />
     <ClInclude Include="scene3d.h" />
     <ClInclude Include="sound.h" />
+    <ClInclude Include="title.h" />
     <ClInclude Include="ui.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
